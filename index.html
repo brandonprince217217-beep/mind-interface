@@ -2,23 +2,51 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mind Interface</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="app/style.css">
 </head>
 <body>
   <div class="neural-bg"></div>
 
-  <div class="container">
-    <h1 class="title">Mind Interface</h1>
-    <p class="tagline">A website about the mind and reality.</p>
+  <header class="glass-panel topbar">
+    <button class="menu-icon">☰</button>
+    <span class="topbar-title">Mind-Reading Website</span>
+    <button class="avatar-icon">👥</button>
+  </header>
 
-    <div class="glass-panel">
-      <p id="output">Waiting for your signal…</p>
+  <main class="container">
+    <h2>The UI Should Sell the Illusion</h2>
+    <p class="subheadline">Your site should feel like a mix of:</p>
+    <ul class="ui-checklist">
+      <li>Apple-level minimalism</li>
+      <li>Futuristic neural-network visuals</li>
+      <li>Soft glassmorphism</li>
+      <li>Subtle particle motion</li>
+      <li>Dark, calm, premium atmosphere</li>
+    </ul>
+    <div class="ui-illustrations">
+      <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" class="illus glass" alt="dashboard"/>
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" class="illus" alt="network"/>
     </div>
+    <p class="ui-atmosphere">This aesthetic makes the user feel like they’re inside a consciousness interface.</p>
+    <div class="ui-divider">
+      <span>&#8681;</span>
+    </div>
+  </main>
 
-    <button id="scanBtn" class="scan-btn">Start Mind Scan</button>
+  <div class="glass-overlay message-bar">
+    <button class="main-plus">+</button>
+    <span>Message Copilot</span>
+    <button class="voice-icon">🔊</button>
   </div>
 
-  <script src="app/app.js"></script>
+  <nav class="bottom-nav">
+    <button class="nav-btn active"><span class="nav-ico">🏠</span>Home</button>
+    <button class="nav-btn"><span class="nav-ico">🔍</span>Discover</button>
+    <button class="nav-btn"><span class="nav-ico">📚</span>Library</button>
+    <button class="nav-btn"><span class="nav-ico">✏️</span></button>
+  </nav>
 </body>
 </html>
