@@ -18,4 +18,3 @@ scanBtn.addEventListener("click", () => {
     output.textContent = pick;
   }, 1500);
 });
-
