@@ -1,1 +1,36 @@
+body {
+  background: #050711;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+}
 
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  color: #8fa0ff;
+  margin-bottom: 30px;
+}
+
+#box {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+}
+
+button {
+  background: #6b8bff;
+  border: none;
+  padding: 12px 20px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
